@@ -19,5 +19,4 @@ upgrade: install ## upgrade
 
 .PHONY: test
 test: ## test
-	./diagnostic
-	./run-tests
+	./diagnostic && ./run-tests
