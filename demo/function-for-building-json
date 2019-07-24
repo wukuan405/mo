@@ -30,10 +30,10 @@ items=(
 )
 . ../mo
 cat <<EOF | mo
-{
+[
     {{#items}}
     {{COMMA_IF_NOT_FIRST}}
     {{.}}
     {{/items}}
-}
+]
 EOF
